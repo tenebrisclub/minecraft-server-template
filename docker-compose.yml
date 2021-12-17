@@ -8,6 +8,7 @@ services:
     ports:
       - 25565:25565
     environment:
+      SERVER_NAME: "tenebris server"
       EULA: "TRUE"
       TYPE: "PURPUR"
       ANNOUNCE_PLAYER_ACHIEVMENTS: "TRUE"
